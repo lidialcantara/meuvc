@@ -1,2 +1,2 @@
-# meuvc
+# meucv
 Projeto de aula - frontend
