@@ -13,6 +13,23 @@ body {
 
 .container {
     margin-top: 30px;
+    
+}
+
+.container {
+    display: flex; /* Usa flexbox para alinhar a imagem e o texto lado a lado */
+    align-items: flex-start; /* Alinha os itens ao topo */
+}
+
+.imagem {
+    width: 400px; /* Largura da imagem */
+    height: 300px; /* Altura da imagem */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.texto {
+    flex: 1; /* Faz o texto ocupar o espaço restante ao lado da imagem */
+    text-align: justify; /* Justifica o texto */
 }
 
 /* Estilização do formulário */
